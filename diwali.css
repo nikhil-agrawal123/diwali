@@ -1,0 +1,195 @@
+body {
+    background-image: url('i3CoM.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    height: 100vh;
+    
+    
+    text-align: center;
+    font-size: 50px;
+    margin-top: 200px;
+    
+}
+.wish {
+    background-color: #fff;
+    color: #ea1111;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    position: relative;
+    width: fit-content;
+}
+
+@media (max-width: 1080px){
+    .dia1{
+        position: absolute;
+        left: 10px;
+        bottom: 800px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    .flame1{
+        position: absolute;
+        left: 120px;
+        width: 80px;
+        height: 80px;
+        z-index: 1;
+        bottom: 930px;
+    }
+    
+    .dia2{
+        position: absolute;
+        right: 120px;
+        bottom: 920px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    
+    .flame2{
+        position: absolute;
+        right: 120px;
+        width: 80px;
+        height: 80px;
+        z-index: 1;
+        bottom: 930px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .dia1{
+        position: absolute;
+        left: 10px;
+        bottom: 370px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    .flame1{
+        position: absolute;
+        left: 10px;
+        width: 80px;
+        height: 80px;
+        z-index: 1;
+        bottom: 380px;
+    }
+    
+    .dia2{
+        position: absolute;
+        right: 20px;
+        bottom: 370px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    
+    .flame2{
+        position: absolute;
+        right: 20px;
+        width: 80px;
+        height: 80px;
+        z-index: 1;
+        bottom: 380px;
+    }
+}
+
+@media (max-width: 540px) {
+    .dia1{
+        position: absolute;
+        left: 10px;
+        bottom: 260px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    .flame1{
+        position: absolute;
+        left: 10px;
+        width: 80px;
+        height: 80px;
+        z-index: 1;
+        bottom: 270px;
+    }
+    
+    .dia2{
+        position: absolute;
+        right: 10px;
+        bottom: 260px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    
+    .flame2{
+        position: absolute;
+        right: 10px;
+        width: 80px;
+        height: 80px;
+        z-index: 1;
+        bottom: 270px;
+    }
+    
+}
+
+.dia1{
+    position: absolute;
+    left: 410px;
+    bottom: 360px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.flame1{
+    position: absolute;
+    left: 410px;
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+    bottom: 370px;
+}
+
+.dia2{
+    position: absolute;
+    right: 410px;
+    bottom: 360px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.flame2{
+    position: absolute;
+    right: 410px;
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+    bottom: 370px;
+}
+
+@keyframes blast {
+    0%{
+        opacity: 1;
+        width: 0px;
+    }
+    100%{
+        opacity: 0;
+        width: 100px;
+    }
+    
+}
